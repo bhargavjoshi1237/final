@@ -16,8 +16,19 @@
   }
 }
 
+@font-face {
+  font-family: Open;
+  src: url("os.otf") format("opentype");
+}
+@font-face {
+  font-family: Openr;
+  src: url("osr.otf") format("opentype");
+}
+
 body {
+  
   color: rgb(var(--foreground-rgb));
+
   background: linear-gradient(
       to bottom,
       transparent,
